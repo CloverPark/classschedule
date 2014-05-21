@@ -24,6 +24,9 @@
 		"CONDON" => "Condon, J.",
 		"COOPER" => "Cooper, L.",
 		"HERNANDEZ" => "Hernandez, K.",
+		"MUSSON" => "Musson",
+		"ANDERSON" => "Anderson",
+		"LARGENT" => "Largent",
 		
 		//Do not modify bellow:
 		"EOF" => "EOF"
@@ -44,7 +47,9 @@
 		"6801" => "-1",
 		"68AA" => "-1",
 		"6892" => "-1",
-		"5701" => "57",
+		"5701" => "-1",
+		"5702" => "-1",
+		
 		
 		//Do not modify bellow:
 		"EOF" => "EOF"
