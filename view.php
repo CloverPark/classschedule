@@ -472,7 +472,7 @@
 				//Resets the form to original default values
 				function resetForm() {
 					location.reload();
-					//window.location = "http://www.cptc.edu/schedule-dev/view.php";
+					//window.location = "http://www.cptc.edu/schedule/view.php";
 			/*		document.getElementsByName("quarter")[0].value = "' . $default_quarter . '";
 					document.getElementsByName("program")[0].value = "-1";
 					document.getElementsByName("instructor")[0].value = "";
