@@ -63,8 +63,13 @@
 		"NS1F" => "998",
 		"NS1C" => "998",
 		"NS1D" => "998",
-			
-		
+		"09F1" => "-1", // cancelled
+		"09G1" => "-1", // cancelled
+		"09H1" => "-1", // cancelled	
+		"5W06" => "-1", // cancelled
+		"0522" => "-1", // cancelled		
+		"5W33" => "-1", // cancelled	
+		"0507" => "-1", // cancelled	
 		
 		//Do not modify bellow:
 		"EOF" => "EOF"
