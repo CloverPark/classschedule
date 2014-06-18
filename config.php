@@ -70,7 +70,11 @@
 		"0522" => "-1", // cancelled		
 		"5W33" => "-1", // cancelled	
 		"0507" => "-1", // cancelled	
-		
+		"05W8" => "-1", // cancelled	
+		"5W26" => "-1", // cancelled	
+		"3031" => "-1", // cancelled
+		"54G1" => "-1", // cancelled		
+		"2011" => "-1", // cancelled	
 		//Do not modify bellow:
 		"EOF" => "EOF"
 	 );
