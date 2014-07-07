@@ -186,7 +186,7 @@
 	 * Inserts and new course description with a course number
 	 */
 	function insertDescription($num, $desc, $ctitle, $ibest, $ibest2, $ibest3, $force, $dbh) {
-		$sql = "INSERT INTO course_description (cnumber, cdescription, ctitle, ibest, force_admin) VALUES (:cnumber,:cdescription, :ctitle, :ibest, :force_admin)";
+		$sql = "INSERT INTO course_description (cnumber, cdescription, ctitle, ibest, ibest2, ibest3, force_admin) VALUES (:cnumber,:cdescription, :ctitle, :ibest, :ibest2, :ibest3, :force_admin)";
 		$q = $dbh->prepare($sql);
 		$q->execute(array(':cnumber'=>$num, ':cdescription'=>$desc, ':ctitle'=>$ctitle, ':ibest'=>$ibest, ':ibest2'=>$ibest2, ':ibest3'=>$ibest3, ':force_admin'=>$force));
 		echo "Added $num<br>";
