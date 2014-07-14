@@ -102,6 +102,14 @@
 		"0554" => "-1", // cancelled	
 		"0555" => "-1", // cancelled
 		"0549" => "-1", // cancelled
+		"51AA" => "-1", // cancelled
+		"51AB" => "-1", // cancelled
+		"51AC" => "-1", // cancelled
+		"51AD" => "-1", // cancelled
+		"51AF" => "-1", // cancelled
+		"51AG" => "-1", // cancelled
+		"51AH" => "-1", // cancelled
+		"51AJ" => "-1", // cancelled
 		
 		//Do not modify bellow:
 		"EOF" => "EOF"

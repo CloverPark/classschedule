@@ -197,6 +197,7 @@
 		$stmt = $dbh->prepare('DELETE FROM courses WHERE yrq = \'' . $yrq . '\'');
 		$stmt->execute();
 		
+		
 		//insert each item into the database
 		foreach($json as $item) {
 			insertViaJSON($item, $force);
@@ -231,6 +232,11 @@
 		//force admin_unit based on item number (from config.php)
 		if(isset($force_item[$item->CLASS_ID])) {
 			$item->ADMIN_UNIT = $force_item[$item->CLASS_ID];
+		}
+		
+		//checking if MQ makes it to this point
+		if($item->ADMIN_UNIT == "MQ") {
+			echo "MQ Found<br>";
 		}
 		
 		//insert if admin_unit isn't -1. -1 means unwanted course.
@@ -429,7 +435,7 @@
 			} else if(strpos($item->COURSE_ID, "239") !== false) {
 				$item->ADMIN_UNIT = -1;
 			}
-		} else if($item->ADMIN_UNIT == 0) {
+		} else if($item->ADMIN_UNIT == 0 && strlen($item->ADMIN_UNIT) < 2) {
 			$item->ADMIN_UNIT = -1;
 		}
 	}
